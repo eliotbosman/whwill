@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasim Harwill</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <div class="overlay-work-button" style="position: fixed; right: 0; top: 50%; transform: translateY(-50%);" id="work-button">
+        <p>work</p>
+    </div>
+    <div class="overlay-art-button" style="position: fixed; left: 0; top: 50%; transform: translateY(-50%);" id="art-button">
+        <p>art</p>
+    </div>
+    
+    <nav>
+        <a href="#" id="home-link" class="centered">Wasim Harwill</a>
+        <a href="#" id="info-link" class="centered">Info</a>
+    </nav>
+    
+    <article id="home-article" style="display: block; position: relative;">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="04_WC_Nostalgia_Stock6.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+        <div class="scrolling-gallery">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_1.jpg" alt="Gallery Image 1">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_2.jpg" alt="Gallery Image 2">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_3.jpg" alt="Gallery Image 3">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_4.jpg" alt="Gallery Image 4">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_5.jpg" alt="Gallery Image 5">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_6.jpg" alt="Gallery Image 6">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_7.jpg" alt="Gallery Image 7">
+            <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_8.jpg" alt="Gallery Image 8">
+        </div>
+        
+        <p id="subtitle-text">
+            Artistic practice in film and theater: as an actor, director, and playwright. The trajectory, from being outside the cultural world and unaware of its existence, to engaging and involving it from this position. Creating art that criticizes and challenges the way people see the world, comments on our contemporary times, hopefully with creations that lead to self-reflection and possibly even change.
+        </p>
+    </article>
+    
+    <div id="home-container" style="display: grid;">
+        <div class="art-section section" id="art-section" style="display: none;">
+            <h1>Art</h1>
+            <p>These listed projects delve into media, installation, and cultural narrative. The projects presented here tries to engage with themes of identity, dislocation, and a social landscape.</p>
+            <div class="project" data-id="1">
+                <h2 class="collapsible">01. Postal</h2>
+                <div class="content">
+                    <figure>
+                        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sapiente eius ipsam quis, optio totam omnis suscipit unde ea tempora. Facere, molestiae tenetur sit distinctio aut libero maiores qui nostrum!<br> —</figcaption>
+                        <img src="img-art/BXYZ-ART-TestIMG-1.jpg" alt="">
+                        <img src="img-art/BXYZ-ART-TestIMG-4.jpg" alt="">
+                        <img src="img-art/BXYZ-ART-TestIMG-3.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="project" data-id="2">
+                <h2 class="collapsible">02. Installation</h2>
+                <div class="content">
+                    <figure>
+                        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sapiente eius ipsam quis, optio totam omnis suscipit unde ea tempora. Facere, molestiae tenetur sit distinctio aut libero maiores qui nostrum!<br> —</figcaption>
+                        <img src="img-art/BXYZ-ART-TestIMG-5.jpg" alt="">
+                        <img src="img-art/BXYZ-ART-TestIMG-6.jpg" alt="">
+                        <img src="img-art/BXYZ-ART-TestIMG-7.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="project" data-id="3">
+                <h2 class="collapsible">03. Film</h2>
+                <div class="content">
+                    <figure>
+                        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sapiente eius ipsam quis, optio totam omnis suscipit unde ea tempora. Facere, molestiae tenetur sit distinctio aut libero maiores qui nostrum!<br> —</figcaption>
+                        <img src="img-art/BXYZ-ART-TestIMG-4.jpg" alt="">
+                        <img src="img-art/BXYZ-ART-TestIMG-2.jpg" alt="">
+                        <img src="img-art/BXYZ-ART-TestIMG-7.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        <div class="work-section section" id="work-section" style="display: none;">
+            <h1>Work</h1>
+            <p>This section features work from the role of a photographer and designer. It showcases the photographer's work in a variety of formats. The practice involves society, organizations and people behind or around an experience mostly shot on analogue.</p>
+            <div class="project" data-id="1">
+                <h2 class="collapsible">01. Friends T-Shirt Shoot</h2>
+                <div class="content">
+                    <figure>
+                        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sapiente eius ipsam quis, optio totam omnis suscipit unde ea tempora. Facere, molestiae tenetur sit distinctio aut libero maiores qui nostrum!<br> —</figcaption>
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_1.jpg" alt="">
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_2.jpg" alt="">
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_3.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="project" data-id="2">
+                <h2 class="collapsible">02. Studio Barnhus</h2>
+                <div class="content">
+                    <figure>
+                        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sapiente eius ipsam quis, optio totam omnis suscipit unde ea tempora. Facere, molestiae tenetur sit distinctio aut libero maiores qui nostrum!<br> —</figcaption>
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_4.jpg" alt="">
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_5.jpg" alt="">
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_6.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="project" data-id="3">
+                <h2 class="collapsible">03. Vivid Book Design</h2>
+                <div class="content">
+                    <figure>
+                        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sapiente eius ipsam quis, optio totam omnis suscipit unde ea tempora. Facere, molestiae tenetur sit distinctio aut libero maiores qui nostrum!<br> —</figcaption>
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_7.jpg" alt="">
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_8.jpg" alt="">
+                        <img src="img_analogue/01_BXYZ_TEST_ANALOGUE_1.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="info-container" class="section" style="display: none;">
+        <ol style="list-style-type: none; padding: 0; margin: 0;">
+            <li>
+                <strong>Education</strong><br>
+                Bachelor of Fine Arts in Graphic Design - Art Institute of Chicago (2010 - 2014)<br>
+                Master of Arts in Contemporary Art Practice - Central Saint Martins, London (2015 - 2017)
+            </li><br>
+            
+            <li>
+                <strong>Exhibitions</strong><br>
+                "Reflections on Urbanism" - Solo Exhibition, Gallery 23, New York, 2018<br>
+                "Digital Landscapes" - Group Exhibition, Berlin Art Week, 2019<br>
+                "Memory Constructs" - Collaborative Installation, Tate Modern, London, 2021<br>
+                "Synthetic Realities" - Solo Exhibition, Museum of Contemporary Art, Los Angeles, 2023
+            </li><br>
+            
+            <li>
+                <strong>Residencies and Awards</strong><br>
+                Artist-in-Residence, The Digital Studio, Amsterdam, 2020<br>
+                Winner, New Media Art Prize, Venice Biennale, 2021<br>
+                Research Fellowship, Centre for Visual Arts, Paris, 2022<br>
+                Recipient, Innovation in Design Award, San Francisco, 2023
+            </li><br>
+            
+            <li>
+                <strong>Selected Publications and Lectures</strong><br>
+                "The Role of Memory in Digital Art" - Lecture, MoMA, New York, 2019<br>
+                "Visualizing Future Cities" - Interview, ArtForum Magazine, 2020<br>
+                "Art and Technology: A Dialogue" - Panelist, Tokyo Art Symposium, 2021<br>
+                "Designing with AI" - Featured in Design Quarterly, 2022
+            </li>
+        </ol>
+        <div id="contact-button-container" style="display: flex; justify-content: center; gap: 2vw; margin-top: 20px;">
+            <button class="contact-button" id="email-button">E-mail</button>
+            <button class="contact-button" id="instagram-button">Instagram</button>
+            <button class="contact-button" id="phone-button">Phone</button>
+        </div>
+    </div>
+</body>
+</html>
